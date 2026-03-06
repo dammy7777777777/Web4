@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Design Art</title>
+  
+  <style>
+     {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    body {
+      background: #111;
+    }
+  
+    
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 80px;
+      background: #2d3440;
+      color: white;
+    }
+    
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    
+     ul {
+      list-style: none;
+      display: flex;
+    }
+    
+     li {
+      margin-left: 25px;
+    }
+    
+     li a {
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+    }
+    
+     li a.active {
+      background: #7ed957;
+      padding: 6px 12px;
+      border-radius: 4px;
+    }
+    
+.hero {
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6));
+  background-image: url("girl.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color:white ;
+  padding: 20px;
+}
+    
+    .div {
+      max-width: 700px;
+    }
+    
+    .h3 {
+      letter-spacing: 3px;
+      font-weight: 300;
+      margin-bottom: 10px;
+    }
+    
+    .h1 {
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
+    
+    .p {
+      font-size: 14px;
+      color: #ddd;
+      margin-bottom: 30px;
+    }
+    
+    .button {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    
+    .btn {
+      padding: 12px 25px;
+      border: none;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    
+    .btn-green {
+      background: #7ed957;
+      color: white;
+    }
+    
+    .btn-outline {
+      background: transparent;
+      border: 2px solid white;
+      color: white;
+      margin-left:4%;
+    }
+  </style>
+</head>
+
+<body>
+  
+  <nav>
+    <div class="logo">EINSTEIN😬</div>
+    
+    <ul>
+      <li><a class="active" href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Contacts</a></li>
+    </ul>
+  </nav>
+  
+  <section class="hero">
+    
+    <div>
+      
+      <h3>YOU CAN CREATE</h3>
+      
+      <h1>YOUR OWN WEBSITE</h1>
+      
+      <p>
+        The concept behind the creation of most multipurpose themes
+        is to produce a single website template that would suit
+        any type of company
+      </p>
+      
+      <div class="buttons">
+        <button class="btn btn-green">BUY A THEME</button>
+        <button class="btn btn-outline">VIEW FEATURED</button>
+      </div>
+      
+    </div>
+    
+  </section>
+  
+</body>
+
+</html>
